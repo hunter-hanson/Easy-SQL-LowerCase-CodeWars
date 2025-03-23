@@ -1,0 +1,7 @@
+-- update statment that uses lower( ) to change all rows in the column race to lowercase letters
+UPDATE demographics
+SET race = lower(race);
+
+-- Regular really simple select statment that displays the table to the screen with the new updates
+SELECT *
+FROM demographics;
